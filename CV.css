@@ -1,0 +1,21 @@
+html
+{
+    background-color: silver;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+hr
+{
+    width : 1700px;
+    height: 3px;
+    background-color: red;
+    border: none;
+    
+}
