@@ -1,10 +1,24 @@
 html{
-    background-color: black;
+    background-color: #001828;
 }
 
 h1{
     text-align: center;
-    color : silver;
+    color : #FFEDB9;
+}
+
+#cadre_centrer
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-left: -100px; /*Très important : - la moitié de la largeur*/
+    margin-top: -50px; /*Très important : - la moitié de la hauteur*/
+    width: 500px; /*Très important: la largeur, 200px par exemple*/
+    height: 500px; /*Très important : la hauteur, 100px par exemple*/
+    border: 3px solid silver;
+    text-align: center;
+    background: silver;
 }
 
 .cadre_centrer
@@ -15,7 +29,7 @@ h1{
     margin-left: -100px; /*Très important : - la moitié de la largeur*/
     margin-top: -50px; /*Très important : - la moitié de la hauteur*/
     width: 500px; /*Très important: la largeur, 200px par exemple*/
-    height: 400px; /*Très important : la hauteur, 100px par exemple*/
+    height: 1700px; /*Très important : la hauteur, 100px par exemple*/
     border: 3px solid silver;
     text-align: center;
     background: silver;
@@ -29,4 +43,27 @@ ul{
     text-align: left;
     background-color: silver;
     width: 200px;
+}
+
+table{
+    border : 1px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+}
+
+td{
+    border : 1px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr{
+    border : 1px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 130px;
 }
