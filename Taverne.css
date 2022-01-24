@@ -21,7 +21,7 @@ h1{
     background: silver;
 }
 
-.cadre_centrer
+.cadre_centrer_Metier
 {
     position: absolute;
     top: 50%;
@@ -30,6 +30,20 @@ h1{
     margin-top: -50px; /*Très important : - la moitié de la hauteur*/
     width: 500px; /*Très important: la largeur, 200px par exemple*/
     height: 1700px; /*Très important : la hauteur, 100px par exemple*/
+    border: 3px solid silver;
+    text-align: center;
+    background: silver;
+}
+
+.cadre_centrer_Joueur
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-left: -100px; /*Très important : - la moitié de la largeur*/
+    margin-top: -50px; /*Très important : - la moitié de la hauteur*/
+    width: 500px; /*Très important: la largeur, 200px par exemple*/
+    height: 2200px; /*Très important : la hauteur, 100px par exemple*/
     border: 3px solid silver;
     text-align: center;
     background: silver;
@@ -66,4 +80,8 @@ tr{
 img{
     width: 100px;
     height: 130px;
+}
+#Accueil{
+    width: 300px;
+    height: 400px;
 }
