@@ -26,7 +26,7 @@ h1{
     position: absolute;
     top: 50%;
     left: 40%;
-    margin-left: -100px; /*Très important : - la moitié de la largeur*/
+    margin-left: -150px; /*Très important : - la moitié de la largeur*/
     margin-top: -50px; /*Très important : - la moitié de la hauteur*/
     width: 500px; /*Très important: la largeur, 200px par exemple*/
     height: 1700px; /*Très important : la hauteur, 100px par exemple*/
@@ -40,7 +40,7 @@ h1{
     position: absolute;
     top: 50%;
     left: 40%;
-    margin-left: -100px; /*Très important : - la moitié de la largeur*/
+    margin-left: -150px; /*Très important : - la moitié de la largeur*/
     margin-top: -50px; /*Très important : - la moitié de la hauteur*/
     width: 500px; /*Très important: la largeur, 200px par exemple*/
     height: 2200px; /*Très important : la hauteur, 100px par exemple*/
@@ -84,4 +84,7 @@ img{
 #Accueil{
     width: 300px;
     height: 400px;
+}
+figure {
+    margin: 0;
 }
